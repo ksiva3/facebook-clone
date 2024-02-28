@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page-Socialbook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/5aabc1cc3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo.png" class="logo" />
+            </a>
+            <ul>
+                <li><img src="images/notification.png"/></li>
+                <li><img src="images/inbox.png"/></li>
+                <li><img src="images/video.png"/></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="searchbox">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggel()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Nilson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to iprove the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibilityy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <!-- --------- profile page ----------- -->
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="profile-detail-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.png" class="pd-image">
+                    <div>
+                        <h3>Nilson</h3>
+                        <p>540 Friends - 60 mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-detail-right">
+
+                <button type="button"><img src="images/add-friends.png" alt="">Friend</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt="">Director at 99media Ltd</li>
+                        <li><img src="images/profile-study.png" alt="">Studied at Amity University</li>
+                        <li><img src="images/profile-study.png" alt="">Went to DPS Delhi</li>
+                        <li><img src="images/profile-home.png" alt="">Lives in Bangalore</li>
+                        <li><img src="images/profile-location.png" alt="">From Bangalore, India</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/photo2.png" alt=""></div>
+                        <div><img src="images/photo3.png" alt=""></div>
+                        <div><img src="images/photo4.png" alt=""></div>
+                        <div><img src="images/photo5.png" alt=""></div>
+                        <div><img src="images/photo6.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" alt=""><p>Joseph N</p></div>
+                        <div><img src="images/member-2.png" alt=""><p>Nathan N</p></div>
+                        <div><img src="images/member-3.png" alt=""><p>George D</p></div>
+                        <div><img src="images/member-4.png" alt=""><p>Francis L</p></div>
+                        <div><img src="images/member-5.png" alt=""><p>Anthony E</p></div>
+                        <div><img src="images/member-6.png" alt=""><p>Michael A</p></div>
+                        <div><img src="images/member-7.png" alt=""><p>Edward M</p></div>
+                        <div><img src="images/member-8.png" alt=""><p>Bradon C</p></div>
+                        <div><img src="images/member-9.png" alt=""><p>James Doe</p></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Nilson</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Nilson?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nilson</p>
+                                <span>February 24 2024, 02:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Creating unforgettable memories with my best friends. <span>#Especially with girls <i class="fa-solid fa-face-smile-wink" style="color: #FFD43B;"></i></span></p>
+                    <img src="images/feed-image-1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">45</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nilson</p>
+                                <span>May 15 2023, 05:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Life was meant for best friends and good adventures! <span>#Chilling vth friends</span></p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">320</div>
+                            <div><img src="images/comments.png" alt="">145</div>
+                            <div><img src="images/share.png" alt="">200</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nilson</p>
+                                <span>August 31 2023, 10:20 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Chilling with friends is the best way to forget about everything else. <span>#Friends Forever</span></p>
+                    <img src="images/feed-image-3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">320</div>
+                            <div><img src="images/comments.png" alt="">145</div>
+                            <div><img src="images/share.png" alt="">200</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nilson</p>
+                                <span>September 02 2023, 3:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">I can’t think of a better gift than your friendship.<span>#Happy birthday! Rosie</span></p>
+                    <img src="images/feed-image-4.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">320</div>
+                            <div><img src="images/comments.png" alt="">145</div>
+                            <div><img src="images/share.png" alt="">200</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nilson</p>
+                                <span>December 08 2024, 11:20 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text"><span>Feeling Excited</span>@To share my knowledge & experience to new trainees</p>
+                    <img src="images/feed-image-5.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png" alt="">290</div>
+                            <div><img src="images/comments.png" alt="">156</div>
+                            <div><img src="images/share.png" alt="">98</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div>
+        <footer>Copyright 2024@This is a facebook clone website</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html
